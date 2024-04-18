@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>E-commerce Category Page</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 0;
+            Padding: 0;
+        }
+        .container {
+            Max-width: 1200px;
+            Margin: 20px auto;
+            Padding: 0 20px;
+        }
+        .product-grid {
+            Display: grid;
+            Grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            Grid-gap: 20px;
+        }
+        .product {
+            Border: 1px solid #ccc;
+            Padding: 10px;
+            Text-align: center;
+        }
+        .product img {
+            Max-width: 100%;
+            Height: auto;
+        }
+        .product-name {
+            Margin-top: 10px;
+            Font-weight: bold;
+        }
+        .product-price {
+            Margin-top: 5px;
+            Color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class=”container”>
+        <h1>Category Name</h1>
+        <div class=”product-grid”>
+            <div class=”product”>
+                <img src=”product1.jpg” alt=”Product 1”>
+                <div class=”product-name”>Product 1</div>
+                <div class=”product-price”>$19.99</div>
+            </div>
+            <div class=”product”>
+                <img src=”product2.jpg” alt=”Product 2”>
+                <div class=”product-name”>Product 2</div>
+                <div class=”product-price”>$24.99</div>
+            </div>
+            <div class=”product”>
+                <img src=”product3.jpg” alt=”Product 3”>
+                <div class=”product-name”>Product 3</div>
+                <div class=”product-price”>$29.99</div>
+            </div>
+            <!—Add more product entries as needed 
+        </div>
+    </div>
+</body>
+</html>
